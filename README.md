@@ -6,4 +6,9 @@
 
     增加d2rq和jean
     
+* 2019-01-26
+
+    增加rules
+    基于规则的kbqa，预先定义规则模板，后基于正则进行匹配得到结果。匹配成功则该输入问题语义可知，返回对应SPARQL查询语句；
+    本处代码来自： https://github.com/SimmerChan/KG-demo-for-movie ，在此基础上进行相应修改。
 
